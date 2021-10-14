@@ -23,7 +23,7 @@ namespace StringFindNet {
 	using namespace msclr;
 
 	using namespace System::Runtime::InteropServices; // DllImportAttribute类所在的命名空间
-	[DllImportAttribute("user32.dll", CharSet = CharSet::Auto)] 
+	[DllImportAttribute("user32.dll", CharSet = CharSet::Auto)]
 	extern "C" int SetWindowPos(IntPtr hWnd, int hWndInsertAfter, int x, int y, int Width, int Height, int flags);
 	/// <summary>
 	/// FindStr 摘要
@@ -50,54 +50,54 @@ namespace StringFindNet {
 				delete components;
 			}
 		}
-	public: System::Windows::Forms::RichTextBox^  richTextBox1;
+	public: System::Windows::Forms::RichTextBox^ richTextBox1;
 	protected:
-	private: System::Windows::Forms::Button^  button1;
-	private: System::Windows::Forms::ComboBox^  comboBox1;
-	private: System::Windows::Forms::Label^  label1;
-	private: System::Windows::Forms::ListView^  listView1;
-	private: System::Windows::Forms::ColumnHeader^  columnHeader1;
-	private: System::Windows::Forms::ColumnHeader^  columnHeader2;
-	private: System::Windows::Forms::ColumnHeader^  columnHeader3;
-	private: System::Windows::Forms::ContextMenuStrip^  contextMenuStrip1;
-	private: System::Windows::Forms::ToolStripMenuItem^  复制地址ToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  添加到注释ToolStripMenuItem;
-	public: System::Windows::Forms::CheckBox^  checkBox1;
-	private: System::Windows::Forms::Label^  label2;
-	private: System::Windows::Forms::ProgressBar^  progressBar1;
-	private: System::Windows::Forms::Label^  label3;
-	private: System::Windows::Forms::ContextMenuStrip^  contextMenuStrip2;
-	private: System::Windows::Forms::ToolStripMenuItem^  MenuItem1;
-	private: System::Windows::Forms::ToolStripMenuItem^  MenuItem2;
-	private: System::Windows::Forms::Button^  button2;
-	private: System::Windows::Forms::TextBox^  textBox1;
-	private: System::Windows::Forms::Button^  button3;
-	public: System::Windows::Forms::CheckBox^  checkBox2;
-	private: System::Windows::Forms::Button^  button4;
-	private: System::Windows::Forms::TextBox^  textBox2;
-	private: System::Windows::Forms::Label^  label4;
-	public: System::Windows::Forms::CheckBox^  checkBox3;
-	private: System::Windows::Forms::ColumnHeader^  columnHeader4;
-	private: System::Windows::Forms::CheckBox^  chkios;
-	private: System::Windows::Forms::ColumnHeader^  columnHeader5;
-	private: System::Windows::Forms::ToolStripMenuItem^  复制内容ToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  复制十六进制ToolStripMenuItem;
-	private: System::Windows::Forms::CheckBox^  chktop;
-	private: System::Windows::Forms::CheckBox^  chkfind;
-	private: System::Windows::Forms::CheckBox^  chkHexFind;
-	private: System::Windows::Forms::ToolStripMenuItem^  转十六进制ToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  转UnicodeToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  unicodeToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  ansiToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  unicodeToolStripMenuItem1;
-	private: System::Windows::Forms::ToolStripMenuItem^  uTF8ToolStripMenuItem;
-	private: System::Windows::Forms::CheckBox^  checkBox4;
-	private: System::Windows::Forms::ToolStripMenuItem^  ansi去掉前两位ToolStripMenuItem;
-	public: 
-	private: 
-	public: 
-	private: 
-	private: System::ComponentModel::IContainer^  components;
+	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::ComboBox^ comboBox1;
+	private: System::Windows::Forms::Label^ label1;
+	private: System::Windows::Forms::ListView^ listView1;
+	private: System::Windows::Forms::ColumnHeader^ columnHeader1;
+	private: System::Windows::Forms::ColumnHeader^ columnHeader2;
+	private: System::Windows::Forms::ColumnHeader^ columnHeader3;
+	private: System::Windows::Forms::ContextMenuStrip^ contextMenuStrip1;
+	private: System::Windows::Forms::ToolStripMenuItem^ 复制地址ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ 添加到注释ToolStripMenuItem;
+	public: System::Windows::Forms::CheckBox^ checkBox1;
+	private: System::Windows::Forms::Label^ label2;
+	private: System::Windows::Forms::ProgressBar^ progressBar1;
+	private: System::Windows::Forms::Label^ label3;
+	private: System::Windows::Forms::ContextMenuStrip^ contextMenuStrip2;
+	private: System::Windows::Forms::ToolStripMenuItem^ MenuItem1;
+	private: System::Windows::Forms::ToolStripMenuItem^ MenuItem2;
+	private: System::Windows::Forms::Button^ button2;
+	private: System::Windows::Forms::TextBox^ textBox1;
+	private: System::Windows::Forms::Button^ button3;
+	public: System::Windows::Forms::CheckBox^ checkBox2;
+	private: System::Windows::Forms::Button^ button4;
+	private: System::Windows::Forms::TextBox^ textBox2;
+	private: System::Windows::Forms::Label^ label4;
+	public: System::Windows::Forms::CheckBox^ checkBox3;
+	private: System::Windows::Forms::ColumnHeader^ columnHeader4;
+	private: System::Windows::Forms::CheckBox^ chkios;
+	private: System::Windows::Forms::ColumnHeader^ columnHeader5;
+	private: System::Windows::Forms::ToolStripMenuItem^ 复制内容ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ 复制十六进制ToolStripMenuItem;
+	private: System::Windows::Forms::CheckBox^ chktop;
+	private: System::Windows::Forms::CheckBox^ chkfind;
+	private: System::Windows::Forms::CheckBox^ chkHexFind;
+	private: System::Windows::Forms::ToolStripMenuItem^ 转十六进制ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ 转UnicodeToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ unicodeToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ ansiToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ unicodeToolStripMenuItem1;
+	private: System::Windows::Forms::ToolStripMenuItem^ uTF8ToolStripMenuItem;
+	private: System::Windows::Forms::CheckBox^ checkBox4;
+	private: System::Windows::Forms::ToolStripMenuItem^ ansi去掉前两位ToolStripMenuItem;
+	public:
+	private:
+	public:
+	private:
+	private: System::ComponentModel::IContainer^ components;
 
 
 
@@ -108,7 +108,7 @@ namespace StringFindNet {
 		/// <summary>
 		/// 必需的设计器变量。
 		/// </summary>
-		
+
 
 #pragma region Windows Form Designer generated code
 
@@ -177,8 +177,10 @@ namespace StringFindNet {
 			// 
 			// contextMenuStrip2
 			// 
-			this->contextMenuStrip2->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(4) {this->MenuItem1, 
-				this->MenuItem2, this->转十六进制ToolStripMenuItem, this->转UnicodeToolStripMenuItem});
+			this->contextMenuStrip2->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(4) {
+				this->MenuItem1,
+					this->MenuItem2, this->转十六进制ToolStripMenuItem, this->转UnicodeToolStripMenuItem
+			});
 			this->contextMenuStrip2->Name = L"contextMenuStrip2";
 			this->contextMenuStrip2->Size = System::Drawing::Size(137, 92);
 			// 
@@ -240,8 +242,10 @@ namespace StringFindNet {
 			// 
 			// listView1
 			// 
-			this->listView1->Columns->AddRange(gcnew cli::array< System::Windows::Forms::ColumnHeader^  >(5) {this->columnHeader1, this->columnHeader4, 
-				this->columnHeader2, this->columnHeader5, this->columnHeader3});
+			this->listView1->Columns->AddRange(gcnew cli::array< System::Windows::Forms::ColumnHeader^  >(5) {
+				this->columnHeader1, this->columnHeader4,
+					this->columnHeader2, this->columnHeader5, this->columnHeader3
+			});
 			this->listView1->ContextMenuStrip = this->contextMenuStrip1;
 			this->listView1->FullRowSelect = true;
 			this->listView1->GridLines = true;
@@ -278,9 +282,11 @@ namespace StringFindNet {
 			// 
 			// contextMenuStrip1
 			// 
-			this->contextMenuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(9) {this->复制地址ToolStripMenuItem, 
-				this->添加到注释ToolStripMenuItem, this->复制内容ToolStripMenuItem, this->复制十六进制ToolStripMenuItem, this->unicodeToolStripMenuItem1, this->unicodeToolStripMenuItem, 
-				this->ansiToolStripMenuItem, this->uTF8ToolStripMenuItem, this->ansi去掉前两位ToolStripMenuItem});
+			this->contextMenuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(9) {
+				this->复制地址ToolStripMenuItem,
+					this->添加到注释ToolStripMenuItem, this->复制内容ToolStripMenuItem, this->复制十六进制ToolStripMenuItem, this->unicodeToolStripMenuItem1, this->unicodeToolStripMenuItem,
+					this->ansiToolStripMenuItem, this->uTF8ToolStripMenuItem, this->ansi去掉前两位ToolStripMenuItem
+			});
 			this->contextMenuStrip1->Name = L"contextMenuStrip1";
 			this->contextMenuStrip1->Size = System::Drawing::Size(193, 224);
 			// 
@@ -558,973 +564,977 @@ namespace StringFindNet {
 	public:int mlstindex;
 
 	public:int mThreadID;
-	public:ea_t mminaddress ;
-	public:ea_t mmaxaddress ;
+	public:ea_t mminaddress;
+	public:ea_t mmaxaddress;
 	public:int mlstcount;
-	public:array<FindEa^,2>^mfindea;
-	
+	public:array<FindEa^, 2>^ mfindea;
+
 #pragma endregion
-	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 
-				 if (!IsFind)
-				 {
-					 if (String::IsNullOrEmpty(richTextBox1->Text))
-					 {
-						 MessageBox::Show("请输入字符串");
-						 return;
-					 }
-					 IsFind = true;
-					 this->button1->Text = "停止";
+		if (!IsFind)
+		{
+			if (String::IsNullOrEmpty(richTextBox1->Text))
+			{
+				MessageBox::Show("请输入字符串");
+				return;
+			}
+			IsFind = true;
+			this->button1->Text = "停止";
 
-					 this->listView1->Items->Clear();
-					 this->progressBar1->Maximum = inf.maxEA-inf.minEA;
-					 this->progressBar1->Value = 0;
+			this->listView1->Items->Clear();
+			this->progressBar1->Maximum = inf.max_ea - inf.min_ea;
+			this->progressBar1->Value = 0;
 
-					 Threading::ThreadPool::QueueUserWorkItem(gcnew Threading::WaitCallback(FindStrRun), this);
+			Threading::ThreadPool::QueueUserWorkItem(gcnew Threading::WaitCallback(FindStrRun), this);
 
-				 }
-				 else
-				 {
-					 IsFind = false;
-					 this->button1->Text = "查找";
+		}
+		else
+		{
+			IsFind = false;
+			this->button1->Text = "查找";
 
-				 }
+		}
 
 
 	}
 
 	private: static Void FindStrRun(Object^ send)
 	{
-				 try
-				 {
-					 FindStr^ win = dynamic_cast<FindStr^>(send);
-
-					 if (win != nullptr)
-					 {
-
-						 array<unsigned char> ^StrBytes;
-						 if(win->checkBox3->Checked)
-							 StrBytes = win->Code->UTF8->GetBytes(win->richTextBox1->Text);
-						 else if (win->checkBox2->Checked)
-							 StrBytes = win->Code->Unicode->GetBytes(win->richTextBox1->Text);
-						 else
-							StrBytes = win->Code->GetBytes(win->richTextBox1->Text);
-
-						 cli::pin_ptr<unsigned char> strcliPtr = &StrBytes[0];
-
-						 unsigned char* dsc = new unsigned char[StrBytes->Length];
-
-						 memcpy(dsc, strcliPtr, StrBytes->Length);
-
-
-
-						 int lengt = StrBytes->Length;
-
-						 if (lengt >= MAXSTR)
-							 lengt = MAXSTR;
-
-						 int lengt2 = lengt * 2;
-						 if (lengt2 >= MAXSTR)
-							 lengt2 = MAXSTR;
-
-
-						 win->SetMsg("正在查找..请勿操作代码窗口");
-						 
-
-						 ea_t minaddress = inf.minEA;
-						 ea_t maxaddress = inf.maxEA;
-
-						 for (ea_t i = minaddress; i < maxaddress && win->IsFind; i++)
-						 {
-							 flags_t flag = getFlags(i);
-
-
-							 if (!isTail(flag) || win->checkBox1->Checked)
-							 {
-
-								 unsigned char * txt = new  unsigned char[lengt2];
-
-								 if (get_many_bytes(i, txt, lengt2))
-								 {
-
-									 if (FindCmp(dsc, txt, lengt))
-									 {
-										 array<System::Byte> ^bytes = gcnew array<System::Byte>(MAXSTR);
-
-										 System::Runtime::InteropServices::Marshal::Copy((IntPtr)txt, bytes, 0, MAXSTR);
-
-
-										 FindEa^ var1 = gcnew FindEa();
-										 var1->TextLen=Convert::ToString(MAXSTR);
-										 if (win->checkBox2->Checked)
-											 var1->Text = win->Code->Unicode->GetString(bytes);
-										 else
-											var1->Text = win->Code->GetString(bytes);
-										 var1->Address = i;
-										 var1->CodeHex=hextostr(bytes);
-										 var1->IsRef = hasRef(flag);
-										 win->InsertFindContext(var1);
-
-										 if (!win->checkBox1->Checked)
-											 i += StrBytes->Length;
-
-									 }
-								 }
-
-
-								 delete txt;
-
-							 }
-
-							 if (i % 1000 == 0)
-							 {
-								 win->SetProcessValue(i-minaddress);
-							 }
-
-						 }
-
-						 win->SetProcessValue(maxaddress-minaddress);
-
-						 win->SetBouttionStop();
-
-						 if (win->listView1->Items->Count == 0)
-						 {
-							 win->SetMsg("查找结束，共查找到:0 个结果");
-							 MessageBox::Show("没有找到该字符串");
-							
-						 }
-						 else
-						 {
-							
-							 win->SetMsg("查找结束，共查找到:" + win->listView1->Items->Count + " 个结果");
-
-						 }
-
-					
-						 delete dsc;
-
-					 }
-				 }
-				 catch (System::Exception ^ er)
-				 {
-					 MessageBox::Show(er->ToString());
-				 }
-	}
-
-private: static int UtoA(array<System::Byte> ^pbytes,int *plen)
-{
-	int i=0;
-	int j=-1;
-	for(i=0;i<*plen;i++)
-	{
-		if (pbytes[i]!=0)
+		try
 		{
-			j++;
-			if(i!=j)
-				pbytes[j]=pbytes[i];
-			
+			FindStr^ win = dynamic_cast<FindStr^>(send);
+
+			if (win != nullptr)
+			{
+
+				array<unsigned char>^ StrBytes;
+				if (win->checkBox3->Checked)
+					StrBytes = win->Code->UTF8->GetBytes(win->richTextBox1->Text);
+				else if (win->checkBox2->Checked)
+					StrBytes = win->Code->Unicode->GetBytes(win->richTextBox1->Text);
+				else
+					StrBytes = win->Code->GetBytes(win->richTextBox1->Text);
+
+				cli::pin_ptr<unsigned char> strcliPtr = &StrBytes[0];
+
+				unsigned char* dsc = new unsigned char[StrBytes->Length];
+
+				memcpy(dsc, strcliPtr, StrBytes->Length);
+
+
+
+				int lengt = StrBytes->Length;
+
+				if (lengt >= MAXSTR)
+					lengt = MAXSTR;
+
+				int lengt2 = lengt * 2;
+				if (lengt2 >= MAXSTR)
+					lengt2 = MAXSTR;
+
+
+				win->SetMsg("正在查找..请勿操作代码窗口");
+
+
+				ea_t minaddress = inf.min_ea;
+				ea_t maxaddress = inf.max_ea;
+
+				for (ea_t i = minaddress; i < maxaddress && win->IsFind; i++)
+				{
+					flags_t flag = get_flags(i);
+
+
+					if (!is_tail(flag) || win->checkBox1->Checked)
+					{
+
+						unsigned char* txt = new  unsigned char[lengt2];
+
+						if (get_bytes(txt, lengt2, i))
+						{
+
+							if (FindCmp(dsc, txt, lengt))
+							{
+								array<System::Byte>^ bytes = gcnew array<System::Byte>(MAXSTR);
+
+								System::Runtime::InteropServices::Marshal::Copy((IntPtr)txt, bytes, 0, MAXSTR);
+
+
+								FindEa^ var1 = gcnew FindEa();
+								var1->TextLen = Convert::ToString(MAXSTR);
+								if (win->checkBox2->Checked)
+									var1->Text = win->Code->Unicode->GetString(bytes);
+								else
+									var1->Text = win->Code->GetString(bytes);
+								var1->Address = i;
+								var1->CodeHex = hextostr(bytes);
+								var1->IsRef = has_xref(flag);
+								win->InsertFindContext(var1);
+
+								if (!win->checkBox1->Checked)
+									i += StrBytes->Length;
+
+							}
+						}
+
+
+						delete txt;
+
+					}
+
+					if (i % 1000 == 0)
+					{
+						win->SetProcessValue(i - minaddress);
+					}
+
+				}
+
+				win->SetProcessValue(maxaddress - minaddress);
+
+				win->SetBouttionStop();
+
+				if (win->listView1->Items->Count == 0)
+				{
+					win->SetMsg("查找结束，共查找到:0 个结果");
+					MessageBox::Show("没有找到该字符串");
+
+				}
+				else
+				{
+
+					win->SetMsg("查找结束，共查找到:" + win->listView1->Items->Count + " 个结果");
+
+				}
+
+
+				delete dsc;
+
+			}
 		}
-		
-			
+		catch (System::Exception^ er)
+		{
+			MessageBox::Show(er->ToString());
+		}
 	}
-	if(j<*plen-1)
-		pbytes[j+1]=0;
-	*plen=j;
-	return j;
-}
 
-private: static int chgx(array<System::Byte> ^pbytes,int *plen)
-		 {
-			 int i=0;
-			 int j;
-			 for(i=0;i<*plen-1;i++)
-			 {
-				 if (pbytes[i]>122 || pbytes[i+1]>122 || pbytes[i]<48 || pbytes[i+1]<48 )
-				 {
-					 j=pbytes[i];
-					 pbytes[i]=pbytes[i+1];
-					 pbytes[i+1]=j;
-					 i++;
-				 }
-			 }
-			 return 1;
-		 }
+	private: static int UtoA(array<System::Byte>^ pbytes, int* plen)
+	{
+		int i = 0;
+		int j = -1;
+		for (i = 0; i < *plen; i++)
+		{
+			if (pbytes[i] != 0)
+			{
+				j++;
+				if (i != j)
+					pbytes[j] = pbytes[i];
 
-private: System::String^ strtohex(System::String^ pstr){
-			 Encoding^ Code;
-			 Code = Encoding::Default;
-			 array<unsigned char> ^bytvalue;
-			 if(checkBox3->Checked)
-				 bytvalue=Code->UTF8->GetBytes(pstr );
-			 else if (checkBox2->Checked)
-				 bytvalue=Code->Unicode->GetBytes(pstr );
-			 else
-				 bytvalue = Code->GetBytes(pstr);
-			 System::String^ strret;
-			 System::String^ strtmp;
-			 //strret=&bytvalue[0
-			 strret="";
-			 for(int i=0;i<bytvalue->Length;i++){
-				 strtmp="00"+Convert::ToString((int)bytvalue[i], 16);
-				 strret+= strtmp->Substring(strtmp->Length-2,2)+" ";
-			 }
+			}
+
+
+		}
+		if (j < *plen - 1)
+			pbytes[j + 1] = 0;
+		*plen = j;
+		return j;
+	}
+
+	private: static int chgx(array<System::Byte>^ pbytes, int* plen)
+	{
+		int i = 0;
+		int j;
+		for (i = 0; i < *plen - 1; i++)
+		{
+			if (pbytes[i] > 122 || pbytes[i + 1] > 122 || pbytes[i] < 48 || pbytes[i + 1] < 48)
+			{
+				j = pbytes[i];
+				pbytes[i] = pbytes[i + 1];
+				pbytes[i + 1] = j;
+				i++;
+			}
+		}
+		return 1;
+	}
+
+	private: System::String^ strtohex(System::String^ pstr) {
+		Encoding^ Code;
+		Code = Encoding::Default;
+		array<unsigned char>^ bytvalue;
+		if (checkBox3->Checked)
+			bytvalue = Code->UTF8->GetBytes(pstr);
+		else if (checkBox2->Checked)
+			bytvalue = Code->Unicode->GetBytes(pstr);
+		else
+			bytvalue = Code->GetBytes(pstr);
+		System::String^ strret;
+		System::String^ strtmp;
+		//strret=&bytvalue[0
+		strret = "";
+		for (int i = 0; i < bytvalue->Length; i++) {
+			strtmp = "00" + Convert::ToString((int)bytvalue[i], 16);
+			strret += strtmp->Substring(strtmp->Length - 2, 2) + " ";
+		}
 
 		return  strret->TrimEnd();
 	}
 
-		 private: System::String^ hextounicode(System::String^ pstr)
-				  {
-					  Encoding^ Code;
-					  Code = Encoding::Default;
-					  System::String^ strtmp;
-					  System::String^ strret;
-					  strtmp=pstr->Replace(" ","");
-					  strtmp=strtmp->Replace("\r","");
-					  strtmp=strtmp->Replace("\n","");
-					  int ilen=strtmp->Length /2;  //
-					  array<unsigned char> ^bytret = gcnew array<unsigned char>(ilen);
-					  for(int i=0;i<ilen;i++)
-					  {
-						  //bytret[i]=(char)Convert::ToInt32( strtmp[i],16);
-						  bytret[i]=(char) Convert::ToInt32( strtmp->Substring(i*2,2),16);
-					  }
-					  if(checkBox3->Checked)
-						  strret=Code->UTF8->GetString(bytret);
-					  else if (checkBox2->Checked)
-						  strret=Code->Unicode->GetString(bytret);
-					  else
-						  strret = Code->GetString(bytret);
-					  return  strret;
-				  }
-
-		private: System::String^ hextounicode(System::String^ pstr,int ptype)
-				 {
-					 Encoding^ Code;
-					 Code = Encoding::Default;
-					 System::String^ strtmp;
-					 System::String^ strret;
-					 strtmp=pstr->Replace(" ","");
-					 strtmp=strtmp->Replace("\r","");
-					 strtmp=strtmp->Replace("\n","");
-					 int ilen=strtmp->Length /2;  //
-					 array<unsigned char> ^bytret = gcnew array<unsigned char>(ilen);
-					 for(int i=0;i<ilen;i++)
-					 {
-						 //bytret[i]=(char)Convert::ToInt32( strtmp[i],16);
-						 bytret[i]=(char) Convert::ToInt32( strtmp->Substring(i*2,2),16);
-					 }
-					 if(ptype==2)
-						 strret=Code->UTF8->GetString(bytret);
-					 else if (ptype==1)
-						 strret=Code->Unicode->GetString(bytret);
-					 else
-						 strret = Code->GetString(bytret);
-					 return  strret;
-				 }
-private:static System::String^ hextostr(array<System::Byte> ^pbytes)
+	private: System::String^ hextounicode(System::String^ pstr)
+	{
+		Encoding^ Code;
+		Code = Encoding::Default;
+		System::String^ strtmp;
+		System::String^ strret;
+		strtmp = pstr->Replace(" ", "");
+		strtmp = strtmp->Replace("\r", "");
+		strtmp = strtmp->Replace("\n", "");
+		int ilen = strtmp->Length / 2;  //
+		array<unsigned char>^ bytret = gcnew array<unsigned char>(ilen);
+		for (int i = 0; i < ilen; i++)
 		{
-			System::String ^strret;
-			System::String ^strtmp;
-			for(int i=0;i<pbytes->Length;i++){
-				strtmp="00"+Convert::ToString((int)pbytes[i], 16);
-				strret+=strtmp->Substring(strtmp->Length-2,2)+" ";
-			}
-			return strret->Trim();
+			//bytret[i]=(char)Convert::ToInt32( strtmp[i],16);
+			bytret[i] = (char)Convert::ToInt32(strtmp->Substring(i * 2, 2), 16);
 		}
+		if (checkBox3->Checked)
+			strret = Code->UTF8->GetString(bytret);
+		else if (checkBox2->Checked)
+			strret = Code->Unicode->GetString(bytret);
+		else
+			strret = Code->GetString(bytret);
+		return  strret;
+	}
 
-private:static	int checkzero(array<System::Byte> ^pbytes,int pstrlen)
+	private: System::String^ hextounicode(System::String^ pstr, int ptype)
+	{
+		Encoding^ Code;
+		Code = Encoding::Default;
+		System::String^ strtmp;
+		System::String^ strret;
+		strtmp = pstr->Replace(" ", "");
+		strtmp = strtmp->Replace("\r", "");
+		strtmp = strtmp->Replace("\n", "");
+		int ilen = strtmp->Length / 2;  //
+		array<unsigned char>^ bytret = gcnew array<unsigned char>(ilen);
+		for (int i = 0; i < ilen; i++)
 		{
-			//unsigned char* p=scr;
-			for(int i=0;i<pstrlen;i++){
-				if(pbytes[i]==0 )
-					return 1;
-				//p++;
-			}
-			return 0;
+			//bytret[i]=(char)Convert::ToInt32( strtmp[i],16);
+			bytret[i] = (char)Convert::ToInt32(strtmp->Substring(i * 2, 2), 16);
 		}
-
-
-private: static Void FindStrRunAll(Object^ send)
+		if (ptype == 2)
+			strret = Code->UTF8->GetString(bytret);
+		else if (ptype == 1)
+			strret = Code->Unicode->GetString(bytret);
+		else
+			strret = Code->GetString(bytret);
+		return  strret;
+	}
+	private:static System::String^ hextostr(array<System::Byte>^ pbytes)
 	{
-				 try
-				 {
-					 FindStr^ win = dynamic_cast<FindStr^>(send);
-					 
-					 if (win != nullptr)
-					 {
-
-						 /*if (String::IsNullOrEmpty(win->richTextBox1->Text))
-						 {
-							 MessageBox::Show("请输入字符串");
-							 return;
-						 }
-
-
-
-						 array<unsigned char> ^StrBytes = win->Code->GetBytes(win->richTextBox1->Text);
-
-						 cli::pin_ptr<unsigned char> strcliPtr = &StrBytes[0];
-
-						 unsigned char* dsc = new unsigned char[StrBytes->Length];
-
-						 memcpy(dsc, strcliPtr, StrBytes->Length);
-						 int lengt = StrBytes->Length;
-
-*/
-						 //字符串长度定义
-						 int lengt = 1024;
-
-						 if (lengt >= MAXSTR)
-							 lengt = MAXSTR;
-
-						 /*int lengt2 = lengt * 2;
-						 if (lengt2 >= MAXSTR)
-							 lengt2 = MAXSTR;*/
-
-
-						 win->SetMsg("正在查找..请勿操作代码窗口");
-						 
-
-						 /*ea_t minaddress = inf.minEA;
-						 ea_t maxaddress = inf.maxEA;*/
-						 ea_t minaddress = win->mminaddress;
-						 ea_t maxaddress = win->mmaxaddress;
-						 int iproc=0;
-						 int lcount;
-						 int llen;
-						 llen=Convert::ToInt32(win->textBox2->Text);
-						 ea_t i;
-						 lcount=0;
-						 for (i = minaddress; i < maxaddress && win->IsFind; i++)
-						 {
-							 flags_t flag = getFlags(i);
-
-							 
-							 if (!isTail(flag) || win->checkBox1->Checked)
-							 {
-								 if ((int)(maxaddress-i)<lengt)
-									 lengt=maxaddress-i;
-								 unsigned char * txt = new  unsigned char[lengt];
-
-								 if (get_many_bytes(i, txt, lengt))
-								 {
-									 int lstrlen=0;
-									 int llastpos=0;
-									 int lpos=-1;
-									 int lisunicode=0;
-									 if (!win->checkBox2->Checked && !win->checkBox3->Checked){
-										 lpos=FindAscii(txt, lengt,llen,&lstrlen,&lisunicode);
-										 //防止字符串不完整
-										if(lpos>=0 && lpos+lstrlen>=lengt){
-											llastpos=lpos;
-											lpos=-1;
-										}
-										 //win->SetMsg(""+*txt+*(txt+1)+*(txt+2)+*(txt+3));
-										win->SetMsg(i+":"+lpos+":"+lstrlen+":"+lengt);
-										 while(lpos>=0)
-										 {
-											 llastpos=0;
-											 array<System::Byte> ^bytes = gcnew array<System::Byte>(lstrlen);
-											 
-											 System::Runtime::InteropServices::Marshal::Copy((IntPtr)(txt+lpos), bytes, 0, lstrlen);
-
-											 //lock(win->listView1);
-												/*win->mfindea[win->mThreadID,lcount]->Text = win->Code->GetString(bytes);
-												win->mfindea[win->mThreadID,lcount]->Address = i+lpos;
-												win->mfindea[win->mThreadID,lcount]->IsRef = hasRef(flag);*/
-											 /*if(win->chkios->Checked)
-												chgx(bytes,&lstrlen);*/
-											 int iszero=0;
-											 if (win->checkBox4->Checked && lstrlen>=4 && lstrlen<=5 ){
-												 iszero=checkzero(bytes,lstrlen);
-											 }
-											 else
-												 iszero=0;
-
-											 if (iszero==0){
-												 FindEa^ var1 = gcnew FindEa();
-												 var1->TextLen=Convert::ToString(lstrlen);
-												 if (!lisunicode || !win->chkios->Checked)
-													 var1->Text = win->Code->GetString(bytes);
-												 else
-													 var1->Text = win->Code->Unicode->GetString(bytes);
-												 var1->Address = i+lpos;
-												 var1->CodeHex=hextostr(bytes);
-												 var1->IsRef = hasRef(flag);
-												 win->InsertFindContext(var1);
-												 
-													 //lcount++;
-													 //if(lcount>=10000)
-													//	 break;
-													 win->mlstcount++;
-											 }
-											 /*if (!win->checkBox1->Checked)
-												 i += StrBytes->Length;*/
-											 lpos=lpos+lstrlen+1;
-											 llastpos=lpos;
-											 lpos=FindAsciiNext(txt, lengt,llen,lpos,&lstrlen,&lisunicode);
-											 //防止字符串不完整
-											 if(lpos>=0 && lpos+lstrlen>=lengt){
-												 llastpos=lpos;
-												 lpos=-1;
-											 }
-										 }
-									 }else if(win->checkBox2->Checked){
-										 //搜索中文
-										 lpos=FindAsciiU(txt, lengt,llen,&lstrlen);
-										 //防止字符串不完整
-										if(lpos>=0 && lpos+lstrlen>=lengt){
-											llastpos=lpos;
-											lpos=-1;
-										}
-										 //win->SetMsg(""+*txt+*(txt+1)+*(txt+2)+*(txt+3));
-										win->SetMsg(i+":"+lpos+":"+lstrlen+":"+lengt);
-										 while(lpos>=0)
-										 {
-											 llastpos=0;
-											 array<System::Byte> ^bytes = gcnew array<System::Byte>(lstrlen);
-											 
-											 System::Runtime::InteropServices::Marshal::Copy((IntPtr)(txt+lpos), bytes, 0, lstrlen);
-
-											 int ilen=lstrlen;
-											 //UtoA(bytes,&ilen);
-											 /*if(win->chkios->Checked)
-												 chgx(bytes,&ilen);*/
-											 //lock (win->listView1){
-												 FindEa^ var1 = gcnew FindEa();
-												 var1->TextLen=Convert::ToString(lstrlen);
-												 var1->Text = win->Code->Unicode->GetString(bytes);
-												 var1->Address = i+lpos;
-												 var1->CodeHex=hextostr(bytes);
-												 var1->IsRef = hasRef(flag);
-												 win->InsertFindContext(var1);
-												 //win->mfindea[win->mThreadID,lcount]=var1;
-												 //lcount++;
-												 //if(lcount>=10000)
-												//	 break;
-												 win->mlstcount++;
-											 //}
-											 /*if (!win->checkBox1->Checked)
-												 i += StrBytes->Length;*/
-											 lpos=lpos+lstrlen+1;
-											 llastpos=lpos;
-											 lpos=FindAsciiNextU(txt, lengt,llen,lpos,&lstrlen);
-											 //防止字符串不完整
-											 if(lpos>=0 && lpos+lstrlen>=lengt){
-												 llastpos=lpos;
-												 lpos=-1;
-											 }
-										 }
-									}else{
-										 //搜索中文
-										 lpos=FindAsciiUtf8(txt, lengt,llen,&lstrlen);
-										 //防止字符串不完整
-										if(lpos>=0 && lpos+lstrlen>=lengt){
-											llastpos=lpos;
-											lpos=-1;
-										}
-										 //win->SetMsg(""+*txt+*(txt+1)+*(txt+2)+*(txt+3));
-										win->SetMsg(i+":"+lpos+":"+lstrlen+":"+lengt);
-										 while(lpos>=0)
-										 {
-											 llastpos=0;
-											 array<System::Byte> ^bytes = gcnew array<System::Byte>(lstrlen);
-											 
-											 System::Runtime::InteropServices::Marshal::Copy((IntPtr)(txt+lpos), bytes, 0, lstrlen);
-
-											 //lock(win->listView1){
-												 FindEa^ var1 = gcnew FindEa();
-												 var1->TextLen=Convert::ToString(lstrlen);
-												 win->Code->GetString(bytes);
-												 String^ sstr=win->Code->UTF8->GetString(bytes);
-												 if(lstrlen/2>sstr->Length)
-													 sstr=win->Code->Unicode->GetString(bytes);
-												 var1->Text = sstr;
-												 var1->Address = i+lpos;
-												 var1->CodeHex=hextostr(bytes);
-												 var1->IsRef = hasRef(flag);
-												 win->InsertFindContext(var1);
-												 //win->mfindea[win->mThreadID,lcount]=var1;
-												 //lcount++;
-												 //if(lcount>=10000)
-												//	 break;
-												 win->mlstcount++;
-											 //}
-											 /*if (!win->checkBox1->Checked)
-												 i += StrBytes->Length;*/
-											 lpos=lpos+lstrlen+1;
-											 llastpos=lpos;
-											 lpos=FindAsciiNextUtf8(txt, lengt,llen,lpos,&lstrlen);
-											 //防止字符串不完整
-											 if(lpos>=0 && lpos+lstrlen>=lengt){
-												 llastpos=lpos;
-												 lpos=-1;
-											 }
-										 }
-									} //else
-									 i += llastpos;
-								 }
-								 delete txt;
-								 
-							 }//if (!isTail(flag) || win->checkBox1->Checked)
-							 iproc++;
-							 if ((i % 1000 == 0) || (iproc % 20==0))
-							 {
-								 iproc=0;
-								 win->SetProcessValue(i-minaddress);
-							 }
-							 //if (lcount >=10000)
-							//	 break;
-						 }//for
-
-						 win->SetProcessValue(i-minaddress);
-						 //win->SetProcessValue(maxaddress-minaddress);
-
-						 win->SetButton2Stop();
-
-						 //if (win->listView1->Items->Count == 0)
-						 if(win->mlstcount==0)
-						 {
-							 win->SetMsg("查找结束，共查找到:0 个结果");
-							 //MessageBox::Show("没有找到该字符串");
-							
-						 }
-						 else
-						 {
-							
-							 win->SetMsg("查找结束，共查找到:" + win->mlstcount + " 个结果");
-
-						 }
-
-					 }
-				 }
-				 catch (System::Exception ^ er)
-				 {
-					 MessageBox::Show(er->ToString());
-					 //win->SetMsg(er->ToString());
-				 }
+		System::String^ strret;
+		System::String^ strtmp;
+		for (int i = 0; i < pbytes->Length; i++) {
+			strtmp = "00" + Convert::ToString((int)pbytes[i], 16);
+			strret += strtmp->Substring(strtmp->Length - 2, 2) + " ";
+		}
+		return strret->Trim();
 	}
 
-	public:void SetProcessValue(int var)
+	private:static	int checkzero(array<System::Byte>^ pbytes, int pstrlen)
 	{
-			   this->BeginInvoke(gcnew System::EventHandler(this, &FindStr::_SetProcessValue), var);
+		//unsigned char* p=scr;
+		for (int i = 0; i < pstrlen; i++) {
+			if (pbytes[i] == 0)
+				return 1;
+			//p++;
+		}
+		return 0;
 	}
 
 
-	private: void _SetProcessValue(System::Object^  sender, System::EventArgs^  e)
-	{
-				 int var = (int)sender;
-				 this->label3->Text = Convert::ToString((int)(var + inf.minEA), 16) + "/" + Convert::ToString((int)inf.maxEA, 16);
-				 this->label3->Invalidate();
-				 this->progressBar1->Value = var;
-				 this->progressBar1->Invalidate();
-	}
-
-
-	public:void SetBouttionStop()
-	{
-			   this->BeginInvoke(gcnew System::EventHandler(this, &FindStr::SetBouttionFalse));
-	}
-
-	private: void SetBouttionFalse(System::Object^  sender, System::EventArgs^  e)
-	{
-				 IsFind = false;
-				 this->button1->Text = "查找";
-	}
-
-public:void SetButton2Stop()
-	{
-			   this->BeginInvoke(gcnew System::EventHandler(this, &FindStr::SetButton2False));
-	}
-
-	private: void SetButton2False(System::Object^  sender, System::EventArgs^  e)
-	{
-				 IsFind = false;
-				 this->button2->Text = "查找所有";
-	}
-
-	public:void SetMsg(String^ msg)
-	{
-			   this->BeginInvoke(gcnew System::EventHandler(this, &FindStr::SetLableText), msg);
-	}
-
-	private: void SetLableText(System::Object^  sender, System::EventArgs^  e)
-	{
-				 String^ msg = dynamic_cast<String^>(sender);
-
-				 this->label2->Text = msg;
-				 this->label2->Invalidate();
-				 this->label2->Update();
-	}
-
-
-	public:void InsertFindContext(FindEa^ obj)
-	{
-			   this->BeginInvoke(gcnew System::EventHandler(this, &FindStr::SetList), obj);
-	}
-
-	
-	private:System::Void SetList(System::Object^  sender, System::EventArgs^  e)
+	private: static Void FindStrRunAll(Object^ send)
 	{
 		try
 		{
-				FindEa^ var = dynamic_cast<FindEa^>(sender);
+			FindStr^ win = dynamic_cast<FindStr^>(send);
 
-				if (var != nullptr)
+			if (win != nullptr)
+			{
+
+				/*if (String::IsNullOrEmpty(win->richTextBox1->Text))
 				{
-					System::Windows::Forms::ListViewItem ^temp = gcnew System::Windows::Forms::ListViewItem("0x" + Convert::ToString((int)var->Address, 16));
-					temp->Tag = var;
-
-					System::Windows::Forms::ListViewItem::ListViewSubItem ^Sub3 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
-					Sub3->Text = var->TextLen;
-					temp->SubItems->Add(Sub3);
-
-					System::Windows::Forms::ListViewItem::ListViewSubItem ^Sub1 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
-					Sub1->Text = var->Text;
-					temp->SubItems->Add(Sub1);
-
-					System::Windows::Forms::ListViewItem::ListViewSubItem ^Sub4 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
-					Sub4->Text = var->CodeHex;
-					temp->SubItems->Add(Sub4);
-
-					System::Windows::Forms::ListViewItem::ListViewSubItem ^Sub2 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
-					Sub2->Text = (var->IsRef == true ? "是" : "否");
-					temp->SubItems->Add(Sub2);
-
-					this->listView1->Items->Add(temp);
+					MessageBox::Show("请输入字符串");
+					return;
 				}
-			}
-			catch (System::Exception ^ er)
-			{
-				//MessageBox::Show(er->ToString());
-				this->SetMsg(er->ToString());
-			}
-	}
 
 
-	private: System::Void FindStr_Load(System::Object^  sender, System::EventArgs^  e) {
 
-				 this->comboBox1->Items->Add(Encoding::Default);
-				 this->comboBox1->Items->Add(Encoding::ASCII);			
-				 this->comboBox1->Items->Add(Encoding::Unicode);
-				 this->comboBox1->Items->Add(Encoding::UTF32);
-				 this->comboBox1->Items->Add(Encoding::UTF8);
-				 this->comboBox1->Items->Add(Encoding::UTF7);
-				 this->comboBox1->SelectedItem = Encoding::Default;
-				 Code = Encoding::Default;
-				 CodeUnicode= Encoding::Unicode;
+				array<unsigned char> ^StrBytes = win->Code->GetBytes(win->richTextBox1->Text);
 
-				 SetWindowPos(this->Handle ,-2,0,0,0,0,3);
-	}
+				cli::pin_ptr<unsigned char> strcliPtr = &StrBytes[0];
 
-	private: System::Void comboBox1_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e)
-	{
-				 Code = (Encoding^)this->comboBox1->SelectedItem;
-	}
-private: System::Void 复制地址ToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) 
-{
-			 if (this->listView1->SelectedItems->Count > 0)
-			 {
-				 FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+				unsigned char* dsc = new unsigned char[StrBytes->Length];
 
-				 if (tmp!=nullptr)
-					Clipboard::SetDataObject("0x" + Convert::ToString((int)tmp->Address,16), true);
-			 }
-}
-private: System::Void 添加到注释ToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) 
-{
-			 if (this->listView1->SelectedItems->Count > 0)
-			 {
-				 FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+				memcpy(dsc, strcliPtr, StrBytes->Length);
+				int lengt = StrBytes->Length;
 
-				 if (tmp != nullptr)
-				 {
-					 char* result = (char*)(void*)System::Runtime::InteropServices::Marshal::StringToHGlobalAnsi(tmp->Text);
-					 
+*/
+//字符串长度定义
+				int lengt = 1024;
 
-					 set_cmt(tmp->Address, result, true);
-				 }
-			 }
-}
-private: System::Void listView1_MouseDoubleClick(System::Object^  sender, System::Windows::Forms::MouseEventArgs^  e) 
-{
-			 FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+				if (lengt >= MAXSTR)
+					lengt = MAXSTR;
 
-			 if (tmp != nullptr)
-			 {
-				 jumpto(tmp->Address);
-
-			 }
-}
-private: System::Void richTextBox1_MouseDown(System::Object^  sender, System::Windows::Forms::MouseEventArgs^  e) {
-	/*if(e->Button == MouseButtons.Right)
-	{
-		this->richTextBox1->ContextMenu = this->contextMenuStrip2;
-	}*/
+				/*int lengt2 = lengt * 2;
+				if (lengt2 >= MAXSTR)
+					lengt2 = MAXSTR;*/
 
 
-}
+				win->SetMsg("正在查找..请勿操作代码窗口");
 
-private: System::Void MenuItem1_Click(System::Object^  sender, System::EventArgs^  e) {
-			 this->richTextBox1->Copy();
-		 }
 
-private: System::Void MenuItem2_Click(System::Object^  sender, System::EventArgs^  e) {
-			 this->richTextBox1->Paste();
-		 }
+				/*ea_t minaddress = inf.minEA;
+				ea_t maxaddress = inf.maxEA;*/
+				ea_t minaddress = win->mminaddress;
+				ea_t maxaddress = win->mmaxaddress;
+				int iproc = 0;
+				int lcount;
+				int llen;
+				llen = Convert::ToInt32(win->textBox2->Text);
+				ea_t i;
+				lcount = 0;
+				for (i = minaddress; i < maxaddress && win->IsFind; i++)
+				{
+					flags_t flag = get_full_flags(i);
 
-private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
-			if (!IsFind)
-			{
-				IsFind = true;
-				this->listView1->Items->Clear();
-				this->button2->Text = "停止";
 
-				/*mfindea=gcnew array<FindEa^,2>(10,10000);
+					if (!is_tail(flag) || win->checkBox1->Checked)
+					{
+						if ((int)(maxaddress - i) < lengt)
+							lengt = maxaddress - i;
+						unsigned char* txt = new  unsigned char[lengt];
 
-				int addrvalue=inf.maxEA-inf.minEA;
-				int addragv=addrvalue /10;
-				this->progressBar1->Maximum = addragv+1;
-				this->progressBar1->Value = 0;
-				int ithread;
-				Threading::ThreadPool::SetMinThreads(1,1);
-				Threading::ThreadPool::SetMaxThreads(10,10);
-				for (ithread=0;ithread<10;ithread++){
-					this->mThreadID=ithread;
-					this->mminaddress=inf.minEA+ithread*addragv;
-					this->mmaxaddress=inf.minEA+(ithread+1)*addragv;
-					mlstcount=0;
-					
-					Threading::ThreadPool::QueueUserWorkItem(gcnew Threading::WaitCallback(FindStrRunAll), this);
-				}
-				
-				for(int v1=0;v1<10;v1++){
-					for(int v2=0;v2<10000;v2++){
-						if(mfindea[v1,v2]!=nullptr)
-							this->InsertFindContext(mfindea[v1,v2]);
-						else
-							break;
+						if (get_bytes(txt, lengt,i))
+						{
+							int lstrlen = 0;
+							int llastpos = 0;
+							int lpos = -1;
+							int lisunicode = 0;
+							if (!win->checkBox2->Checked && !win->checkBox3->Checked) {
+								lpos = FindAscii(txt, lengt, llen, &lstrlen, &lisunicode);
+								//防止字符串不完整
+								if (lpos >= 0 && lpos + lstrlen >= lengt) {
+									llastpos = lpos;
+									lpos = -1;
+								}
+								//win->SetMsg(""+*txt+*(txt+1)+*(txt+2)+*(txt+3));
+								win->SetMsg(i + ":" + lpos + ":" + lstrlen + ":" + lengt);
+								while (lpos >= 0)
+								{
+									llastpos = 0;
+									array<System::Byte>^ bytes = gcnew array<System::Byte>(lstrlen);
+
+									System::Runtime::InteropServices::Marshal::Copy((IntPtr)(txt + lpos), bytes, 0, lstrlen);
+
+									//lock(win->listView1);
+									   /*win->mfindea[win->mThreadID,lcount]->Text = win->Code->GetString(bytes);
+									   win->mfindea[win->mThreadID,lcount]->Address = i+lpos;
+									   win->mfindea[win->mThreadID,lcount]->IsRef = hasRef(flag);*/
+									   /*if(win->chkios->Checked)
+										  chgx(bytes,&lstrlen);*/
+									int iszero = 0;
+									if (win->checkBox4->Checked && lstrlen >= 4 && lstrlen <= 5) {
+										iszero = checkzero(bytes, lstrlen);
+									}
+									else
+										iszero = 0;
+
+									if (iszero == 0) {
+										FindEa^ var1 = gcnew FindEa();
+										var1->TextLen = Convert::ToString(lstrlen);
+										if (!lisunicode || !win->chkios->Checked)
+											var1->Text = win->Code->GetString(bytes);
+										else
+											var1->Text = win->Code->Unicode->GetString(bytes);
+										var1->Address = i + lpos;
+										var1->CodeHex = hextostr(bytes);
+										var1->IsRef = has_xref(flag);
+										win->InsertFindContext(var1);
+
+										//lcount++;
+										//if(lcount>=10000)
+									   //	 break;
+										win->mlstcount++;
+									}
+									/*if (!win->checkBox1->Checked)
+										i += StrBytes->Length;*/
+									lpos = lpos + lstrlen + 1;
+									llastpos = lpos;
+									lpos = FindAsciiNext(txt, lengt, llen, lpos, &lstrlen, &lisunicode);
+									//防止字符串不完整
+									if (lpos >= 0 && lpos + lstrlen >= lengt) {
+										llastpos = lpos;
+										lpos = -1;
+									}
+								}
+							}
+							else if (win->checkBox2->Checked) {
+								//搜索中文
+								lpos = FindAsciiU(txt, lengt, llen, &lstrlen);
+								//防止字符串不完整
+								if (lpos >= 0 && lpos + lstrlen >= lengt) {
+									llastpos = lpos;
+									lpos = -1;
+								}
+								//win->SetMsg(""+*txt+*(txt+1)+*(txt+2)+*(txt+3));
+								win->SetMsg(i + ":" + lpos + ":" + lstrlen + ":" + lengt);
+								while (lpos >= 0)
+								{
+									llastpos = 0;
+									array<System::Byte>^ bytes = gcnew array<System::Byte>(lstrlen);
+
+									System::Runtime::InteropServices::Marshal::Copy((IntPtr)(txt + lpos), bytes, 0, lstrlen);
+
+									int ilen = lstrlen;
+									//UtoA(bytes,&ilen);
+									/*if(win->chkios->Checked)
+										chgx(bytes,&ilen);*/
+										//lock (win->listView1){
+									FindEa^ var1 = gcnew FindEa();
+									var1->TextLen = Convert::ToString(lstrlen);
+									var1->Text = win->Code->Unicode->GetString(bytes);
+									var1->Address = i + lpos;
+									var1->CodeHex = hextostr(bytes);
+									var1->IsRef = has_xref(flag);
+									win->InsertFindContext(var1);
+									//win->mfindea[win->mThreadID,lcount]=var1;
+									//lcount++;
+									//if(lcount>=10000)
+								   //	 break;
+									win->mlstcount++;
+									//}
+									/*if (!win->checkBox1->Checked)
+										i += StrBytes->Length;*/
+									lpos = lpos + lstrlen + 1;
+									llastpos = lpos;
+									lpos = FindAsciiNextU(txt, lengt, llen, lpos, &lstrlen);
+									//防止字符串不完整
+									if (lpos >= 0 && lpos + lstrlen >= lengt) {
+										llastpos = lpos;
+										lpos = -1;
+									}
+								}
+							}
+							else {
+								//搜索中文
+								lpos = FindAsciiUtf8(txt, lengt, llen, &lstrlen);
+								//防止字符串不完整
+								if (lpos >= 0 && lpos + lstrlen >= lengt) {
+									llastpos = lpos;
+									lpos = -1;
+								}
+								//win->SetMsg(""+*txt+*(txt+1)+*(txt+2)+*(txt+3));
+								win->SetMsg(i + ":" + lpos + ":" + lstrlen + ":" + lengt);
+								while (lpos >= 0)
+								{
+									llastpos = 0;
+									array<System::Byte>^ bytes = gcnew array<System::Byte>(lstrlen);
+
+									System::Runtime::InteropServices::Marshal::Copy((IntPtr)(txt + lpos), bytes, 0, lstrlen);
+
+									//lock(win->listView1){
+									FindEa^ var1 = gcnew FindEa();
+									var1->TextLen = Convert::ToString(lstrlen);
+									win->Code->GetString(bytes);
+									String^ sstr = win->Code->UTF8->GetString(bytes);
+									if (lstrlen / 2 > sstr->Length)
+										sstr = win->Code->Unicode->GetString(bytes);
+									var1->Text = sstr;
+									var1->Address = i + lpos;
+									var1->CodeHex = hextostr(bytes);
+									var1->IsRef = has_xref(flag);
+									win->InsertFindContext(var1);
+									//win->mfindea[win->mThreadID,lcount]=var1;
+									//lcount++;
+									//if(lcount>=10000)
+								   //	 break;
+									win->mlstcount++;
+									//}
+									/*if (!win->checkBox1->Checked)
+										i += StrBytes->Length;*/
+									lpos = lpos + lstrlen + 1;
+									llastpos = lpos;
+									lpos = FindAsciiNextUtf8(txt, lengt, llen, lpos, &lstrlen);
+									//防止字符串不完整
+									if (lpos >= 0 && lpos + lstrlen >= lengt) {
+										llastpos = lpos;
+										lpos = -1;
+									}
+								}
+							} //else
+							i += llastpos;
+						}
+						delete txt;
+
+					}//if (!isTail(flag) || win->checkBox1->Checked)
+					iproc++;
+					if ((i % 1000 == 0) || (iproc % 20 == 0))
+					{
+						iproc = 0;
+						win->SetProcessValue(i - minaddress);
 					}
-				}
-				if (this->listView1->Items->Count == 0)
+					//if (lcount >=10000)
+				   //	 break;
+				}//for
+
+				win->SetProcessValue(i - minaddress);
+				//win->SetProcessValue(maxaddress-minaddress);
+
+				win->SetButton2Stop();
+
+				//if (win->listView1->Items->Count == 0)
+				if (win->mlstcount == 0)
 				{
-					this->SetMsg("查找结束，共查找到:0 个结果");
+					win->SetMsg("查找结束，共查找到:0 个结果");
 					//MessageBox::Show("没有找到该字符串");
 
 				}
 				else
 				{
 
-					this->SetMsg("查找结束，共查找到:" + this->listView1->Items->Count  + " 个结果");
+					win->SetMsg("查找结束，共查找到:" + win->mlstcount + " 个结果");
 
-				}*/
-				this->mminaddress=inf.minEA;
-				this->mmaxaddress=inf.maxEA;
-				this->progressBar1->Maximum = mmaxaddress-mminaddress;
-				this->progressBar1->Value = 0;
+				}
+
+			}
+		}
+		catch (System::Exception^ er)
+		{
+			MessageBox::Show(er->ToString());
+			//win->SetMsg(er->ToString());
+		}
+	}
+
+	public:void SetProcessValue(int var)
+	{
+		this->BeginInvoke(gcnew System::EventHandler(this, &FindStr::_SetProcessValue), var);
+	}
+
+
+	private: void _SetProcessValue(System::Object^ sender, System::EventArgs^ e)
+	{
+		int var = (int)sender;
+		this->label3->Text = Convert::ToString((int)(var + inf.min_ea), 16) + "/" + Convert::ToString((int)inf.max_ea, 16);
+		this->label3->Invalidate();
+		this->progressBar1->Value = var;
+		this->progressBar1->Invalidate();
+	}
+
+
+	public:void SetBouttionStop()
+	{
+		this->BeginInvoke(gcnew System::EventHandler(this, &FindStr::SetBouttionFalse));
+	}
+
+	private: void SetBouttionFalse(System::Object^ sender, System::EventArgs^ e)
+	{
+		IsFind = false;
+		this->button1->Text = "查找";
+	}
+
+	public:void SetButton2Stop()
+	{
+		this->BeginInvoke(gcnew System::EventHandler(this, &FindStr::SetButton2False));
+	}
+
+	private: void SetButton2False(System::Object^ sender, System::EventArgs^ e)
+	{
+		IsFind = false;
+		this->button2->Text = "查找所有";
+	}
+
+	public:void SetMsg(String^ msg)
+	{
+		this->BeginInvoke(gcnew System::EventHandler(this, &FindStr::SetLableText), msg);
+	}
+
+	private: void SetLableText(System::Object^ sender, System::EventArgs^ e)
+	{
+		String^ msg = dynamic_cast<String^>(sender);
+
+		this->label2->Text = msg;
+		this->label2->Invalidate();
+		this->label2->Update();
+	}
+
+
+	public:void InsertFindContext(FindEa^ obj)
+	{
+		this->BeginInvoke(gcnew System::EventHandler(this, &FindStr::SetList), obj);
+	}
+
+
+	private:System::Void SetList(System::Object^ sender, System::EventArgs^ e)
+	{
+		try
+		{
+			FindEa^ var = dynamic_cast<FindEa^>(sender);
+
+			if (var != nullptr)
+			{
+				System::Windows::Forms::ListViewItem^ temp = gcnew System::Windows::Forms::ListViewItem("0x" + Convert::ToString((int)var->Address, 16));
+				temp->Tag = var;
+
+				System::Windows::Forms::ListViewItem::ListViewSubItem^ Sub3 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
+				Sub3->Text = var->TextLen;
+				temp->SubItems->Add(Sub3);
+
+				System::Windows::Forms::ListViewItem::ListViewSubItem^ Sub1 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
+				Sub1->Text = var->Text;
+				temp->SubItems->Add(Sub1);
+
+				System::Windows::Forms::ListViewItem::ListViewSubItem^ Sub4 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
+				Sub4->Text = var->CodeHex;
+				temp->SubItems->Add(Sub4);
+
+				System::Windows::Forms::ListViewItem::ListViewSubItem^ Sub2 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
+				Sub2->Text = (var->IsRef == true ? "是" : "否");
+				temp->SubItems->Add(Sub2);
+
+				this->listView1->Items->Add(temp);
+			}
+		}
+		catch (System::Exception^ er)
+		{
+			//MessageBox::Show(er->ToString());
+			this->SetMsg(er->ToString());
+		}
+	}
+
+
+	private: System::Void FindStr_Load(System::Object^ sender, System::EventArgs^ e) {
+
+		this->comboBox1->Items->Add(Encoding::Default);
+		this->comboBox1->Items->Add(Encoding::ASCII);
+		this->comboBox1->Items->Add(Encoding::Unicode);
+		this->comboBox1->Items->Add(Encoding::UTF32);
+		this->comboBox1->Items->Add(Encoding::UTF8);
+		this->comboBox1->Items->Add(Encoding::UTF7);
+		this->comboBox1->SelectedItem = Encoding::Default;
+		Code = Encoding::Default;
+		CodeUnicode = Encoding::Unicode;
+
+		SetWindowPos(this->Handle, -2, 0, 0, 0, 0, 3);
+	}
+
+	private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e)
+	{
+		Code = (Encoding^)this->comboBox1->SelectedItem;
+	}
+	private: System::Void 复制地址ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
+	{
+		if (this->listView1->SelectedItems->Count > 0)
+		{
+			FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+
+			if (tmp != nullptr)
+				Clipboard::SetDataObject("0x" + Convert::ToString((int)tmp->Address, 16), true);
+		}
+	}
+	private: System::Void 添加到注释ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
+	{
+		if (this->listView1->SelectedItems->Count > 0)
+		{
+			FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+
+			if (tmp != nullptr)
+			{
+				char* result = (char*)(void*)System::Runtime::InteropServices::Marshal::StringToHGlobalAnsi(tmp->Text);
+
+
+				set_cmt(tmp->Address, result, true);
+			}
+		}
+	}
+	private: System::Void listView1_MouseDoubleClick(System::Object^ sender, System::Windows::Forms::MouseEventArgs^ e)
+	{
+		FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+
+		if (tmp != nullptr)
+		{
+			jumpto(tmp->Address);
+
+		}
+	}
+	private: System::Void richTextBox1_MouseDown(System::Object^ sender, System::Windows::Forms::MouseEventArgs^ e) {
+		/*if(e->Button == MouseButtons.Right)
+		{
+			this->richTextBox1->ContextMenu = this->contextMenuStrip2;
+		}*/
+
+
+	}
+
+	private: System::Void MenuItem1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->richTextBox1->Copy();
+	}
+
+	private: System::Void MenuItem2_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->richTextBox1->Paste();
+	}
+
+	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (!IsFind)
+		{
+			IsFind = true;
+			this->listView1->Items->Clear();
+			this->button2->Text = "停止";
+
+			/*mfindea=gcnew array<FindEa^,2>(10,10000);
+
+			int addrvalue=inf.maxEA-inf.minEA;
+			int addragv=addrvalue /10;
+			this->progressBar1->Maximum = addragv+1;
+			this->progressBar1->Value = 0;
+			int ithread;
+			Threading::ThreadPool::SetMinThreads(1,1);
+			Threading::ThreadPool::SetMaxThreads(10,10);
+			for (ithread=0;ithread<10;ithread++){
+				this->mThreadID=ithread;
+				this->mminaddress=inf.minEA+ithread*addragv;
+				this->mmaxaddress=inf.minEA+(ithread+1)*addragv;
 				mlstcount=0;
+
 				Threading::ThreadPool::QueueUserWorkItem(gcnew Threading::WaitCallback(FindStrRunAll), this);
-						//FindStrRunAll(this);
-				//
+			}
+
+			for(int v1=0;v1<10;v1++){
+				for(int v2=0;v2<10000;v2++){
+					if(mfindea[v1,v2]!=nullptr)
+						this->InsertFindContext(mfindea[v1,v2]);
+					else
+						break;
+				}
+			}
+			if (this->listView1->Items->Count == 0)
+			{
+				this->SetMsg("查找结束，共查找到:0 个结果");
+				//MessageBox::Show("没有找到该字符串");
+
 			}
 			else
 			{
-				IsFind = false;
-				this->button2->Text = "查找所有";
 
-			}
-		 }
+				this->SetMsg("查找结束，共查找到:" + this->listView1->Items->Count  + " 个结果");
 
-int findlist(System::String ^pstr,int ppos)
-{
-	System::String ^strtmp;
-	for(int i=ppos;i<listView1->Items->Count;i++)
-	{
-		//FindEa^ tmp = dynamic_cast<FindEa^>listView1->Items[i]->Tag;
-		if (chkHexFind->Checked){
-			pstr=pstr->ToLower();
-			strtmp=listView1->Items[i]->SubItems[3]->Text;
+			}*/
+			this->mminaddress = inf.min_ea;
+			this->mmaxaddress = inf.max_ea;
+			this->progressBar1->Maximum = mmaxaddress - mminaddress;
+			this->progressBar1->Value = 0;
+			mlstcount = 0;
+			Threading::ThreadPool::QueueUserWorkItem(gcnew Threading::WaitCallback(FindStrRunAll), this);
+			//FindStrRunAll(this);
+	//
 		}
 		else
-			strtmp=listView1->Items[i]->SubItems[2]->Text;
-		if (strtmp->IndexOf(pstr)>=0)
-			return i;
+		{
+			IsFind = false;
+			this->button2->Text = "查找所有";
+
+		}
 	}
-	return -1;
-}
-private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
-		if (listView1->Items->Count==0) 
+
+		   int findlist(System::String^ pstr, int ppos)
+		   {
+			   System::String^ strtmp;
+			   for (int i = ppos; i < listView1->Items->Count; i++)
+			   {
+				   //FindEa^ tmp = dynamic_cast<FindEa^>listView1->Items[i]->Tag;
+				   if (chkHexFind->Checked) {
+					   pstr = pstr->ToLower();
+					   strtmp = listView1->Items[i]->SubItems[3]->Text;
+				   }
+				   else
+					   strtmp = listView1->Items[i]->SubItems[2]->Text;
+				   if (strtmp->IndexOf(pstr) >= 0)
+					   return i;
+			   }
+			   return -1;
+		   }
+	private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (listView1->Items->Count == 0)
 			return;
 
-		if (chkfind->Checked){
-			mlstindex=findlist(textBox1->Text,0);
-			if (mlstindex>=0)
-				listView1->TopItem=listView1->Items[mlstindex];
+		if (chkfind->Checked) {
+			mlstindex = findlist(textBox1->Text, 0);
+			if (mlstindex >= 0)
+				listView1->TopItem = listView1->Items[mlstindex];
 			else
 				MessageBox::Show(this, "没有找到！");
-		}else{
-			ListViewItem^ foundItem =listView1->FindItemWithText(textBox1->Text, 1, 0, true);
+		}
+		else {
+			ListViewItem^ foundItem = listView1->FindItemWithText(textBox1->Text, 1, 0, true);
 			if (foundItem != nullptr)
 			{
 				listView1->TopItem = foundItem;
-				mlstindex=foundItem->Index;
+				mlstindex = foundItem->Index;
 			}
 			else
 				MessageBox::Show(this, "没有找到！");
 		}
-		 }
-private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
-			 if (listView1->Items->Count==0) 
-				 return;
-			 if (chkfind->Checked){
-				 mlstindex=findlist(textBox1->Text,mlstindex+1);
-				 if (mlstindex>=0)
-					listView1->TopItem=listView1->Items[mlstindex];
-				 else
-					 MessageBox::Show(this, "已经到最后一个！");
-			 }else{
-				 ListViewItem^ foundItem =listView1->FindItemWithText(textBox1->Text, 1, mlstindex+1, true);
-				 if (foundItem != nullptr)
-				 {
-					 listView1->TopItem = foundItem;
-					 mlstindex=foundItem->Index;
-				 }
-				 else
-					 MessageBox::Show(this, "已经到最后一个！");
-			 }
-		 }
-private: System::Void 复制内容ToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
-			 if (this->listView1->SelectedItems->Count > 0)
-			 {
-				 FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+	}
+	private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (listView1->Items->Count == 0)
+			return;
+		if (chkfind->Checked) {
+			mlstindex = findlist(textBox1->Text, mlstindex + 1);
+			if (mlstindex >= 0)
+				listView1->TopItem = listView1->Items[mlstindex];
+			else
+				MessageBox::Show(this, "已经到最后一个！");
+		}
+		else {
+			ListViewItem^ foundItem = listView1->FindItemWithText(textBox1->Text, 1, mlstindex + 1, true);
+			if (foundItem != nullptr)
+			{
+				listView1->TopItem = foundItem;
+				mlstindex = foundItem->Index;
+			}
+			else
+				MessageBox::Show(this, "已经到最后一个！");
+		}
+	}
+	private: System::Void 复制内容ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (this->listView1->SelectedItems->Count > 0)
+		{
+			FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
 
-				 if (tmp!=nullptr)
-					 Clipboard::SetDataObject(tmp->Text, true);
-			 }
-		 }
-private: System::Void 复制十六进制ToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
-			 if (this->listView1->SelectedItems->Count > 0)
-			 {
-				 FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+			if (tmp != nullptr)
+				Clipboard::SetDataObject(tmp->Text, true);
+		}
+	}
+	private: System::Void 复制十六进制ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (this->listView1->SelectedItems->Count > 0)
+		{
+			FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
 
-				 if (tmp!=nullptr)
-					 Clipboard::SetDataObject(tmp->CodeHex, true);
-			 }
-		 }
-private: System::Void chktop_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
-			 if (chktop->Checked)
-				 //SetWindowPos((HWND)this->Handle.ToInt32() ,HWND_TOPMOST,0,0,0,0,SWP_NOMOVE|SWP_NOSIZE);
-				 SetWindowPos(this->Handle ,-1,0,0,0,0,3);
-			 else
-				 SetWindowPos(this->Handle,-2,0,0,0,0,3);
-		 }
-private: System::Void 转十六进制ToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
-			 try{
-				 System::String^ strtmp=richTextBox1->Text;
-				 textBox1->Text=strtohex(strtmp);
-			 }
-			 catch (System::Exception ^ er)
-			 {
-				 MessageBox::Show(er->ToString());
-			 }
-		 }
-private: System::Void 转UnicodeToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
-			 try{
-				 System::String^ strtmp=richTextBox1->Text;
-				 textBox1->Text=hextounicode(strtmp);
-			 }
-			 catch (System::Exception ^ er)
-			 {
-				 MessageBox::Show(er->ToString());
-			 }
-		 }
-private: System::Void unicodeToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
-			 
-			 
-				 if (this->listView1->SelectedItems->Count > 0)
-				 {
-					 FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
-					//System::Windows::Forms::ListViewItem ^tempitem=(System::Windows::Forms::ListViewItem ^)this->listView1->SelectedItems[0];
-					 if (tmp!=nullptr){
-						System::String^ strtmp=tmp->CodeHex;
-						int llen=strtmp->Length;
-						System::String^ str=strtmp->Substring(3,llen-3);
-						tmp->Text= hextounicode(str,1);
-						//tempitem->Tag=tmp;
-						//System::Windows::Forms::ListViewItem::ListViewSubItem ^Sub2 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
-						//Sub2->Text = tmp->Text;
-						//tempitem->SubItems[2]=Sub2;
-						this->listView1->SelectedItems[0]->SubItems[2]->Text=tmp->Text;
-						this->listView1->SelectedItems[0]->Tag=tmp;
-						 
-					 }
-				 }
-		 }
-private: System::Void ansiToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
-			 if (this->listView1->SelectedItems->Count > 0)
-			 {
-				 FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
-				 //System::Windows::Forms::ListViewItem ^tempitem=(System::Windows::Forms::ListViewItem ^)this->listView1->SelectedItems[0];
-				 if (tmp!=nullptr){
-					 System::String^ strtmp=tmp->CodeHex;
-					 tmp->Text= hextounicode(strtmp,0);
-					 //tempitem->Tag=tmp;
-					 //System::Windows::Forms::ListViewItem::ListViewSubItem ^Sub2 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
-					 //Sub2->Text = tmp->Text;
-					 //tempitem->SubItems[2]=Sub2;
-					 this->listView1->SelectedItems[0]->SubItems[2]->Text=tmp->Text;
-					 this->listView1->SelectedItems[0]->Tag=tmp;
+			if (tmp != nullptr)
+				Clipboard::SetDataObject(tmp->CodeHex, true);
+		}
+	}
+	private: System::Void chktop_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+		if (chktop->Checked)
+			//SetWindowPos((HWND)this->Handle.ToInt32() ,HWND_TOPMOST,0,0,0,0,SWP_NOMOVE|SWP_NOSIZE);
+			SetWindowPos(this->Handle, -1, 0, 0, 0, 0, 3);
+		else
+			SetWindowPos(this->Handle, -2, 0, 0, 0, 0, 3);
+	}
+	private: System::Void 转十六进制ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		try {
+			System::String^ strtmp = richTextBox1->Text;
+			textBox1->Text = strtohex(strtmp);
+		}
+		catch (System::Exception^ er)
+		{
+			MessageBox::Show(er->ToString());
+		}
+	}
+	private: System::Void 转UnicodeToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		try {
+			System::String^ strtmp = richTextBox1->Text;
+			textBox1->Text = hextounicode(strtmp);
+		}
+		catch (System::Exception^ er)
+		{
+			MessageBox::Show(er->ToString());
+		}
+	}
+	private: System::Void unicodeToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 
-				 }
-			 }
-		 }
-private: System::Void unicodeToolStripMenuItem1_Click(System::Object^  sender, System::EventArgs^  e) {
-			 if (this->listView1->SelectedItems->Count > 0)
-			 {
-				 FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
-				 //System::Windows::Forms::ListViewItem ^tempitem=(System::Windows::Forms::ListViewItem ^)this->listView1->SelectedItems[0];
-				 if (tmp!=nullptr){
-					 System::String^ strtmp=tmp->CodeHex;
-					 tmp->Text= hextounicode(strtmp,1);
-					 this->listView1->SelectedItems[0]->SubItems[2]->Text=tmp->Text;
-					 this->listView1->SelectedItems[0]->Tag=tmp;
 
-				 }
-			 }
-		 }
-private: System::Void uTF8ToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
-			 if (this->listView1->SelectedItems->Count > 0)
-			 {
-				 FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
-				 //System::Windows::Forms::ListViewItem ^tempitem=(System::Windows::Forms::ListViewItem ^)this->listView1->SelectedItems[0];
-				 if (tmp!=nullptr){
-					 System::String^ strtmp=tmp->CodeHex;
-					 tmp->Text= hextounicode(strtmp,2);
-					 this->listView1->SelectedItems[0]->SubItems[2]->Text=tmp->Text;
-					 this->listView1->SelectedItems[0]->Tag=tmp;
+		if (this->listView1->SelectedItems->Count > 0)
+		{
+			FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+			//System::Windows::Forms::ListViewItem ^tempitem=(System::Windows::Forms::ListViewItem ^)this->listView1->SelectedItems[0];
+			if (tmp != nullptr) {
+				System::String^ strtmp = tmp->CodeHex;
+				int llen = strtmp->Length;
+				System::String^ str = strtmp->Substring(3, llen - 3);
+				tmp->Text = hextounicode(str, 1);
+				//tempitem->Tag=tmp;
+				//System::Windows::Forms::ListViewItem::ListViewSubItem ^Sub2 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
+				//Sub2->Text = tmp->Text;
+				//tempitem->SubItems[2]=Sub2;
+				this->listView1->SelectedItems[0]->SubItems[2]->Text = tmp->Text;
+				this->listView1->SelectedItems[0]->Tag = tmp;
 
-				 }
-			 }
-		 }
-private: System::Void ansi去掉前两位ToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
-			 if (this->listView1->SelectedItems->Count > 0)
-			 {
-				 FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
-				 //System::Windows::Forms::ListViewItem ^tempitem=(System::Windows::Forms::ListViewItem ^)this->listView1->SelectedItems[0];
-				 if (tmp!=nullptr){
-					 System::String^ strtmp=tmp->CodeHex;
-					 int llen=strtmp->Length;
-					 System::String^ str=strtmp->Substring(6,llen-6);
-					 tmp->Text= hextounicode(str,0);
-					 //tempitem->Tag=tmp;
-					 //System::Windows::Forms::ListViewItem::ListViewSubItem ^Sub2 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
-					 //Sub2->Text = tmp->Text;
-					 //tempitem->SubItems[2]=Sub2;
-					 this->listView1->SelectedItems[0]->SubItems[2]->Text=tmp->Text;
-					 this->listView1->SelectedItems[0]->Tag=tmp;
+			}
+		}
+	}
+	private: System::Void ansiToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (this->listView1->SelectedItems->Count > 0)
+		{
+			FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+			//System::Windows::Forms::ListViewItem ^tempitem=(System::Windows::Forms::ListViewItem ^)this->listView1->SelectedItems[0];
+			if (tmp != nullptr) {
+				System::String^ strtmp = tmp->CodeHex;
+				tmp->Text = hextounicode(strtmp, 0);
+				//tempitem->Tag=tmp;
+				//System::Windows::Forms::ListViewItem::ListViewSubItem ^Sub2 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
+				//Sub2->Text = tmp->Text;
+				//tempitem->SubItems[2]=Sub2;
+				this->listView1->SelectedItems[0]->SubItems[2]->Text = tmp->Text;
+				this->listView1->SelectedItems[0]->Tag = tmp;
 
-				 }
-			 }
-		 }
-};
+			}
+		}
+	}
+	private: System::Void unicodeToolStripMenuItem1_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (this->listView1->SelectedItems->Count > 0)
+		{
+			FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+			//System::Windows::Forms::ListViewItem ^tempitem=(System::Windows::Forms::ListViewItem ^)this->listView1->SelectedItems[0];
+			if (tmp != nullptr) {
+				System::String^ strtmp = tmp->CodeHex;
+				tmp->Text = hextounicode(strtmp, 1);
+				this->listView1->SelectedItems[0]->SubItems[2]->Text = tmp->Text;
+				this->listView1->SelectedItems[0]->Tag = tmp;
+
+			}
+		}
+	}
+	private: System::Void uTF8ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (this->listView1->SelectedItems->Count > 0)
+		{
+			FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+			//System::Windows::Forms::ListViewItem ^tempitem=(System::Windows::Forms::ListViewItem ^)this->listView1->SelectedItems[0];
+			if (tmp != nullptr) {
+				System::String^ strtmp = tmp->CodeHex;
+				tmp->Text = hextounicode(strtmp, 2);
+				this->listView1->SelectedItems[0]->SubItems[2]->Text = tmp->Text;
+				this->listView1->SelectedItems[0]->Tag = tmp;
+
+			}
+		}
+	}
+	private: System::Void ansi去掉前两位ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (this->listView1->SelectedItems->Count > 0)
+		{
+			FindEa^ tmp = dynamic_cast<FindEa^>(this->listView1->SelectedItems[0]->Tag);
+			//System::Windows::Forms::ListViewItem ^tempitem=(System::Windows::Forms::ListViewItem ^)this->listView1->SelectedItems[0];
+			if (tmp != nullptr) {
+				System::String^ strtmp = tmp->CodeHex;
+				int llen = strtmp->Length;
+				System::String^ str = strtmp->Substring(6, llen - 6);
+				tmp->Text = hextounicode(str, 0);
+				//tempitem->Tag=tmp;
+				//System::Windows::Forms::ListViewItem::ListViewSubItem ^Sub2 = gcnew System::Windows::Forms::ListViewItem::ListViewSubItem();
+				//Sub2->Text = tmp->Text;
+				//tempitem->SubItems[2]=Sub2;
+				this->listView1->SelectedItems[0]->SubItems[2]->Text = tmp->Text;
+				this->listView1->SelectedItems[0]->Tag = tmp;
+
+			}
+		}
+	}
+	};
 }
