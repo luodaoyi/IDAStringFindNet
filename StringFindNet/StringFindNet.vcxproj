@@ -93,7 +93,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetExt>.plw</TargetExt>
+    <TargetExt>.dll</TargetExt>
     <IncludePath>G:\f\debug\idasdk65\include;$(IncludePath)</IncludePath>
     <LibraryPath>G:\f\debug\idasdk65\lib\x86_win_vc_32;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
@@ -141,6 +141,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>ida.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/EXPORT:PLUGIN %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>D:\softs\idasdk76\lib\x64_win_vc_64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -193,6 +194,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalOptions>/EXPORT:PLUGIN %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>ida.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\softs\idasdk76\lib\x64_win_vc_64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

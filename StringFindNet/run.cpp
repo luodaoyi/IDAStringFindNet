@@ -3,22 +3,16 @@
 #include <loader.hpp>
 #include "FindStr.h"
 
-
+/*
 int idaapi   IDAP_init(void)
 {
-
-
 	return PLUGIN_KEEP;
-
-
 }
-
 
 void idaapi IDAP_term(void)
 {
 	return;
 }
-
 
 void idaapi  IDAP_run(int arg)
 {
@@ -27,6 +21,25 @@ void idaapi  IDAP_run(int arg)
 
 
 	return;
+}
+*/
+
+struct plugin_ctx_t : public plugmod_t
+{
+	virtual bool idaapi run(size_t arg) override;
+};
+
+//--------------------------------------------------------------------------
+static plugmod_t* idaapi init()
+{
+	return new plugin_ctx_t;
+}
+
+bool idaapi plugin_ctx_t::run(size_t)
+{
+	StringFindNet::FindStr^ win = gcnew StringFindNet::FindStr();
+	win->Show();
+	return true;  
 }
 
 
@@ -39,9 +52,9 @@ plugin_t PLUGIN =
 {
 	IDP_INTERFACE_VERSION,
 	0,
-	IDAP_init,
-	IDAP_term,
-	IDAP_run,
+	init,
+	nullptr,
+	nullptr,
 	IDAP_comment,
 	IDAP_help,
 	IDAP_name,
